@@ -6,22 +6,25 @@ body {
     ;
 }
 
-.title {
-    margin: 10px 25px 10px 25px;
+.info {
+    margin: 10px 25px -10px 25px;
     padding: 25px 35px;
     background-color: hsl(246, 80%, 60%);
     display: flex;
     border-radius: 1pc;
+    position: relative;
 }
 
 .p1.-title {
     font-weight: 300;
     color: rgb(201, 201, 201);
+    margin-top: 10px;
 }
 
 .p2.-title {
-    margin-top: 8%;
+    margin-top: 7%;
     font-weight: 300;
+    font-size: 1.3pc;
 }
 
 .image-profile {
@@ -32,10 +35,45 @@ body {
     margin-right: 1.2pc;
 }
 
-.p1.-title {
-    margin-top: 10px;
+.options {
+    background-color: hsl(235, 46%, 20%);
+    padding: 5%;
+    margin: 0px 25px 0px 25px;
+    border-radius: 0pc 0pc 1pc 1pc;
+    display: flex;
+    justify-content: space-around;
 }
 
-.p2.-title {
-    font-size: 1.3pc;
+.option-profile {
+    background: none;
+    border: none;
+    color:hsl(235, 45%, 61%);
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.option-profile .btn:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.option-profile:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+.topbar{
+    margin: 25px 25px 0px 25px;
+    border-radius: 1pc 1pc 0pc 0pc;
+    overflow: hidden;
+}
+.topbar.-work{
+    background-color: hsl(15, 100%, 70%);
+}
+.image-bar{
+    padding-left: 70%;
+    margin-top: -5%;
+    margin-bottom: -10%;
 }
