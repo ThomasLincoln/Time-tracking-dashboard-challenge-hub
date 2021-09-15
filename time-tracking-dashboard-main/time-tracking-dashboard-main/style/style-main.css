@@ -51,6 +51,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .option-profile .btn:focus {
@@ -66,6 +67,7 @@ body {
 }
 .topbar{
     margin: 25px 25px 0px 25px;
+    padding-bottom: 10px;
     border-radius: 1pc 1pc 0pc 0pc;
     overflow: hidden;
 }
@@ -76,4 +78,37 @@ body {
     padding-left: 70%;
     margin-top: -5%;
     margin-bottom: -10%;
+}
+.section{
+    background-color: hsl(235, 46%, 20%);
+    margin: -10px 25px 25px 25px;
+    border-radius: 1pc 1pc 1pc 1pc;
+    padding: 8%; 
+    overflow: hidden;
+    position: relative;
+}
+.left-side{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side{
+    display: flex;
+    justify-content: space-between;
+}
+.section-title{
+    font-size: 20px;
+}
+.h.-work{
+    font-weight: 300;
+    font-size: 2pc;
+}
+.pre{
+    color: hsl(236, 43%, 79%);
+    margin-top: 10px;
+}
+.suboption{
+    font-size: 2pc;
+}
+.suboption::hover{
+    cursor: pointer;
 }
