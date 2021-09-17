@@ -29,13 +29,13 @@
       </div>
     </div>
     <div class="options">
-      <button id="daily" class="option-profile">Daily</button>
+      <button id="daily" onclick="selecao()" class="option-profile">Daily</button>
       <button id="weekly" class="option-profile">Weekly</button>
       <button id="monthly" class="option-profile">Monthly</button>
     </div>
   </div>
 
-<!------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------>
   <div class="default-division">
     <div class="topbar -work">
       <img class="image-bar" src="./images/icon-work.svg">
@@ -46,16 +46,19 @@
         <img src="./images/elipses_option.svg" class="suboption"></img>
       </div>
       <div class="right-side">
-        <p class="h -work">5hrs</p>
-        <p class="pre -work">Previous - 7hrs</p>
+        <p class="h -work">N/A</p>
+        <p class="pre -work">N/A</p>
       </div>
     </div>
   </div>
   <!--o que falta
-  weekly
+  --daily
+  5hrs
+  Previous - 7hrs
+  --weekly
   32hrs
   Previous - 36hrs
-  monthly
+  --monthly
   103hrs 
   Previous - 128hrs
 -->
@@ -70,8 +73,8 @@
         <img src="./images/elipses_option.svg" class="suboption"></img>
       </div>
       <div class="right-side">
-        <p class="h -work">1hr</p>
-        <p class="pre -work">Previous - 2hrs</p>
+        <p class="h -play">N/A</p>
+        <p class="pre -play">N/A</p>
       </div>
     </div>
   </div>
@@ -86,7 +89,7 @@
    --monthly
    23hrs 
    Previous - 29hrs 
-  --> 
+  -->
   <!--------------------------------------------------------------------------------------------->
   <div class="default-division">
     <div class="topbar -study">
@@ -98,8 +101,8 @@
         <img src="./images/elipses_option.svg" class="suboption"></img>
       </div>
       <div class="right-side">
-        <p class="h -work">0hrs</p>
-        <p class="pre -work">Previous - 1hrs</p>
+        <p class="h -study">N/A</p>
+        <p class="pre -study">N/A</p>
       </div>
     </div>
   </div>
@@ -114,7 +117,7 @@
     --monthly
     13hrs 
     Previous - 19hrs
-  --> 
+  -->
   <!--------------------------------------------------------------------------------------------->
   <div class="default-division">
     <div class="topbar -exercise">
@@ -126,18 +129,21 @@
         <img src="./images/elipses_option.svg" class="suboption"></img>
       </div>
       <div class="right-side">
-        <p class="h -work">1hr</p>
-        <p class="pre -work">Previous - 1hr</p>
+        <p class="h -exercise">N/A</p>
+        <p class="pre -exercise">N/A</p>
       </div>
     </div>
   </div>
   <!--  
   Exercise
-  1hr daily
-  Previous - 1hr daily
-  4hrs weekly
-  Previous - 5hrs weekly 
-  11hrs monthly
+  --daily
+  1hr 
+  Previous - 1hr
+  --weekly
+  4hrs 
+  Previous - 5hrs
+  --monthly
+  11hrs 
   Previous - 18hrs monthly
 -->
   <!--------------------------------------------------------------------------------------------->
@@ -151,20 +157,23 @@
         <img src="./images/elipses_option.svg" class="suboption"></img>
       </div>
       <div class="right-side">
-        <p class="h -work">1hr</p>
-        <p class="pre -work">Previous - 3hrs</p>
+        <p class="h -social">N/A</p>
+        <p class="pre -social">N/A</p>
       </div>
     </div>
   </div>
   <!--
   Social
-  1hr daily
-  Previous - 3hrs daily
-  5hrs weekly
-  Previous - 10hrs weekly
-  21hrs monthly
-  Previous - 23hrs monthly
-  --> 
+  --daily
+  1hr 
+  Previous - 3hrs
+  --weekly
+  5hrs 
+  Previous - 10hrs
+  --monthly
+  21hrs 
+  Previous - 23hrs
+  -->
   <!--------------------------------------------------------------------------------------------->
   <div class="default-division">
     <div class="topbar -selfcare">
@@ -176,25 +185,30 @@
         <img src="./images/elipses_option.svg" class="suboption"></img>
       </div>
       <div class="right-side">
-        <p class="h -work">0hrs</p>
-        <p class="pre -work">Previous - 1hr</p>
+        <p class="h -selfcare">N/A</p>
+        <p class="pre -selfcare">N/A</p>
       </div>
     </div>
   </div>
   <!--
   Self Care
-  0hrs daily
-  Previous - 1hr daily
-  2hrs weekly
-  Previous - 2hrs weekly
-  7hrs monthly
-  Previous - 11hrs monthly
-  --> 
+  --daily
+  0hrs 
+  Previous - 1hr
+  --weekly
+  2hrs 
+  Previous - 2hrs
+  --monthly
+  7hrs 
+  Previous - 11hrs
+  -->
   <!--------------------------------------------------------------------------------------------->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/ThomasLincoln">Thomas Lincoln</a>.
   </div>
+
+  <script src="./script/script-main.js"></script>
 </body>
 
 </html>
