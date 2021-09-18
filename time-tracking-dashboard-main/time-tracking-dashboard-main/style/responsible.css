@@ -1,0 +1,65 @@
+@media only screen and (min-width: 900px) {
+    .container {
+        display: flex;
+        overflow: hidden;
+        margin: 5pc 6pc;
+    }
+    .sub-container {
+        margin-left: 1pc;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .default-division {
+        width: 18pc;
+    }
+    .options {
+        flex-direction: column;
+        justify-content: start;
+        margin: 0pc;
+    }
+    .option-profile {
+        padding-top: 1.4pc;
+        text-align: left;
+    }
+    .info {
+        flex-direction: column;
+        padding-right: 5pc;
+        padding-bottom: 4.5pc;
+        margin: 0px 0px -10px 0px;
+    }
+    .image-profile {
+        margin-bottom: 1pc;
+    }
+    .p1.-title {
+        font-size: 0.7pc;
+    }
+    .p2.-title {
+        font-size: 2pc;
+    }
+    .topbar {
+        margin: 0px 25px 0px 25px;
+    }
+    .section {
+        margin: -10px 25px 25px 25px;
+    }
+    .right-side {
+        padding-top: 1pc;
+        flex-direction: column;
+    }
+    .image-bar {
+        padding-left: 60%;
+    }
+    .h {
+        font-size: 2.5pc;
+    }
+    .section:hover {
+        background-color: hsl(235, 45%, 61%);
+        cursor: pointer;
+    }
+    .option-profile:hover{
+        cursor: pointer;
+    }
+    .attribution{
+        margin-top: -40px;
+    }
+}
